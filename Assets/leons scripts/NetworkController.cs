@@ -10,7 +10,6 @@ public class NetworkController : MonoBehaviourPunCallbacks
 
     [SerializeField]
     Button startbutton;
-    [SerializeField]
 
 
     void Start()
@@ -27,14 +26,4 @@ public class NetworkController : MonoBehaviourPunCallbacks
         PhotonNetwork.AutomaticallySyncScene = true;
     }
 
-    public void shooting()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
